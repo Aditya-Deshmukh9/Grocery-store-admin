@@ -4,7 +4,8 @@
   "info": {
     "singularName": "order",
     "pluralName": "orders",
-    "displayName": "order"
+    "displayName": "order",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,7 +27,7 @@
     "address": {
       "type": "text"
     },
-    "totalorderitem": {
+    "totalOrderAmount": {
       "type": "integer"
     },
     "userid": {
@@ -42,6 +43,9 @@
     },
     "status": {
       "type": "string"
+    },
+    "date": {
+      "type": "date"
     }
   }
 }

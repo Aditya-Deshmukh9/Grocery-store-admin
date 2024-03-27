@@ -828,6 +828,7 @@ export interface ApiOrderOrder extends Schema.CollectionType {
     singularName: 'order';
     pluralName: 'orders';
     displayName: 'order';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -838,11 +839,12 @@ export interface ApiOrderOrder extends Schema.CollectionType {
     phone: Attribute.Integer;
     zip: Attribute.Integer;
     address: Attribute.Text;
-    totalorderitem: Attribute.Integer;
+    totalOrderAmount: Attribute.Integer;
     userid: Attribute.Integer;
     paymentid: Attribute.String;
     orderitemlist: Attribute.Component<'ordered-item.ordered-items', true>;
     status: Attribute.String;
+    date: Attribute.Date;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

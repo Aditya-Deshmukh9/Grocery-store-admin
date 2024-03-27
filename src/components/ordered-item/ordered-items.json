@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "price": {
+    "amount": {
       "type": "integer"
     },
     "product": {
@@ -14,7 +14,7 @@
       "relation": "oneToOne",
       "target": "api::product.product"
     },
-    "qty": {
+    "quantity": {
       "type": "integer"
     }
   }

@@ -7,13 +7,13 @@ export interface OrderedItemOrderedItems extends Schema.Component {
     description: '';
   };
   attributes: {
-    price: Attribute.Integer;
+    amount: Attribute.Integer;
     product: Attribute.Relation<
       'ordered-item.ordered-items',
       'oneToOne',
       'api::product.product'
     >;
-    qty: Attribute.Integer;
+    quantity: Attribute.Integer;
   };
 }
 
