@@ -19,7 +19,7 @@
       "type": "email"
     },
     "phone": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "zip": {
       "type": "integer"

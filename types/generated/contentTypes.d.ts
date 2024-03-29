@@ -836,7 +836,7 @@ export interface ApiOrderOrder extends Schema.CollectionType {
   attributes: {
     username: Attribute.String;
     email: Attribute.Email;
-    phone: Attribute.Integer;
+    phone: Attribute.BigInteger;
     zip: Attribute.Integer;
     address: Attribute.Text;
     totalOrderAmount: Attribute.Integer;
